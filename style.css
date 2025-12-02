@@ -51,9 +51,9 @@ h1 {
     color: #FFF;
 }
 
-nav {
-  font: red;
+nav a{
 color: red;
+margin: 50px;
 }
 
 footer {
