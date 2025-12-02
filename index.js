@@ -1,8 +1,13 @@
 const myButton = document.getElementById("myButton");
+
 myButton.addEventListener("click", function(){
+
+    const pageTwo = document.getElementById("pageTwo");
+    const pageOne = document.getElementById("pageOne");
+    pageOne.style.display = "none";
+    pageTwo.style.display = "block";
+
 });
 
 
-const pageOne = document.getElementById("pageOne");
-pageTwo.style.display = "none";
-pageOne.style.display = "block";
+
